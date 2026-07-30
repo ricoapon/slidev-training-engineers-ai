@@ -8,7 +8,7 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@ricoapon/slidev-theme-narrative": "^0.1.1",
+    "@ricoapon/slidev-theme-narrative": "^0.1.2",
     "@slidev/cli": "^52.16.0",
     "vue": "^3.5.33"
   }
