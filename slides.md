@@ -240,5 +240,5 @@ background: /end.jpg
 
 <div class="mt-2 mx-auto w-max flex flex-col items-center gap-3">
   <div class="w-52 h-52 rounded-lg" style="background: url(/qr-code.png) center / contain no-repeat" role="img" aria-label="QR code linking to the slides"></div>
-  <div class="px-4 py-2 rounded-full" style="background: var(--scrim)">github.com/ricoapon/slidev-guiding-engineers-ai</div>
+  <div class="px-4 py-2 rounded-full" style="background: var(--scrim)">github.com/ricoapon/slidev-training-engineers-ai</div>
 </div>

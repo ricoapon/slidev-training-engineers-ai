@@ -15,7 +15,7 @@ This is the slide deck, made using [Slidev](https://sli.dev/), for my presentati
 
 ## Present
 
-Either go to http://slidev-juniorengineers.ricoapon.nl/ or run `npm run dev`.
+Either go to https://trainingengineersai.ricoapon.nl/ or run `npm run dev`.
 
 ## Present offline
 

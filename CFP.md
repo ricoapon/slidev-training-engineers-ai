@@ -35,7 +35,7 @@ However, the content of the talk does not contain any advanced topics, so I gues
 * How AI helps or hurts understanding
 * Call for action: ask for chat history
 
-See full slide deck here: https://guidingengineers.ricoapon.nl/.
+See full slide deck here: https://trainingengineersai.ricoapon.nl/.
 
 # Speaker Biography
 
