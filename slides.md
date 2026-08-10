@@ -3,13 +3,13 @@ theme: '@ricoapon/slidev-theme-narrative'
 colorSchema: dark
 themeConfig:
   accent: '#30A46C'
-title: How To Guide Engineers In The Age Of AI
+title: Did The Engineer Learn It Or Did AI?
 transition: slide-left
 layout: cover
 background: /cover.jpg
 ---
 
-# How To Guide Engineers In The Age Of AI
+# Did The Engineer Learn It Or Did AI?
 
 ---
 layout: statement
@@ -34,7 +34,7 @@ image: /me.jpg
 <div class="flex flex-col gap-4 mt-4 text-xl">
   <div class="flex items-center gap-3"><div class="i-carbon-book" /> Epic fantasy reader <span class="muted text-base">(Brandon Sanderson!)</span></div>
   <div class="flex items-center gap-3"><div class="i-carbon-music" /> Salsa &amp; bachata dancer</div>
-  <div class="flex items-center gap-3"><div class="i-carbon-education" /> Teacher</div>
+  <div class="flex items-center gap-3"><div class="i-carbon-education" /> Teacher & Coach</div>
   <div class="flex items-center gap-3"><div class="i-carbon-user-certification" /> Lead Engineer at Keylane</div>
 </div>
 
@@ -140,72 +140,6 @@ often do something without understanding it (following a manual for example). Bu
 -->
 
 ---
-layout: statement
----
-
-# Apply &ne; understanding
-
-So how do you check?
-
-<!--
-Bloom's Taxonomy showed that you need to understand something to apply it. But nowadays, seeing it applied is not a 
-good indication anymore for understanding. Result was never equal to understanding, but in some cases it was a good 
-indication. If somebody programmed a  feature, then it is pretty clear they understood the design and how to 
-implement the feature. Good enough.
-
-These days, it could have been the result of a prompt, which could be generated without any understanding.
--->
-
----
-layout: image-right
-image: /talk.jpg
----
-
-# Talk to them
-
-Ask questions. Let them explain.
-
-<!--
-Everything is about learning. A person learns in different ways. To know if they learned something, you need to test 
-them in some way. Testing doesn't mean having them do an exam, but just talking with them about the code should 
-quickly show whether they understood it or not.
-
-This is now even more crucial than before.
-
-Note: even if they copied it from AI, they might still understand.
--->
-
----
-layout: center
----
-
-# Review chat history
-
-<div class="mt-10 flex justify-center gap-12">
-  <div class="px-5 py-4 text-xl rounded-2xl" style="border: 1px solid var(--hairline)">Fix it. Make no mistakes.</div>
-  <div class="px-5 py-4 text-xl rounded-2xl" style="border: 1px solid var(--hairline)">Help me understand how this works.</div>
-</div>
-
-<!--
-I think this is THE best way to see if they understood a topic. Their chat history shows you HOW they use AI: are they 
-outsourcing the thinking ("fix it, make no mistakes") or using it to learn ("help me understand how this works")?
-
-They might be scared to share it though, because it is so personal. Sharing is sometimes technically also a bit more 
-difficult if it is split up in different chats or when using a desktop app. Figure out a way together. It is new 
-technology and everyone does it differently. You might learn something from it too!
-
-This "how" is exactly what the next part is about.
--->
-
----
-layout: cover
-background: /how.jpg
-transition: fade
----
-
-# Guide <u>how</u> they use AI
-
----
 layout: center
 ---
 
@@ -259,37 +193,50 @@ a teacher that is available for their questions 24/7.
 -->
 
 ---
-layout: image-left
-image: /enthusiasm.jpg
+layout: statement
 ---
 
-# Use their enthusiasm
+# Apply &ne; understanding
 
-Vibe code boring stuff with AI on side projects.
+So how do you check?
 
 <!--
-When you have a hobby project, there are certain parts you might enjoy, while you also need the boring stuff.
-For example: creating the backend with Java could be fun, but Thymeleaf frontend is boring. Just let AI do the
-boring stuff! It will make it far more enjoyable to create hobby projects this way.
+Bloom's Taxonomy showed that you need to understand something to apply it. But nowadays, seeing it applied is not a 
+good indication anymore for understanding. Result was never equal to understanding, but in some cases it was a good 
+indication. If somebody programmed a  feature, then it is pretty clear they understood the design and how to 
+implement the feature. Good enough.
 
-Ask question: who hates doing frontend development? Hopefully a lot! 
+These days, it could have been the result of a prompt, which could be generated without any understanding.
 -->
 
 ---
 layout: center
 ---
 
-# In summary
+# Review chat history
 
-1. Focus on understanding
-2. Guide how they use AI
+<div class="mt-10 flex justify-center gap-12">
+  <div class="px-5 py-4 text-xl rounded-2xl" style="border: 1px solid var(--hairline)">Fix it. Make no mistakes.</div>
+  <div class="px-5 py-4 text-xl rounded-2xl" style="border: 1px solid var(--hairline)">Help me understand how this works.</div>
+</div>
+
+<!--
+I think this is THE best way to see if they understood a topic. Their chat history shows you HOW they use AI: are they 
+outsourcing the thinking ("fix it, make no mistakes") or using it to learn ("help me understand how this works")?
+
+They might be scared to share it though, because it is so personal. Sharing is sometimes technically also a bit more 
+difficult if it is split up in different chats or when using a desktop app. Figure out a way together. It is new 
+technology and everyone does it differently. You might learn something from it too!
+
+End on the call to action: their next PR, ask for the chat history. That is the one concrete thing to do on Monday.
+-->
 
 ---
 layout: cover
 background: /end.jpg
 ---
 
-# The end
+# It was never about the code
 
 <div class="mt-2 mx-auto w-max flex flex-col items-center gap-3">
   <div class="w-52 h-52 rounded-lg" style="background: url(/qr-code.png) center / contain no-repeat" role="img" aria-label="QR code linking to the slides"></div>
